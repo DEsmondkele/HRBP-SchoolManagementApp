@@ -1,0 +1,9 @@
+spring.datasource.driver-class-name = org.postgresql.Driver
+#com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/StudentResults
+spring.datasource.username=postgres
+spring.datasource.password=aududada
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect
+server.port=8086
+spring.jpa.hibernate.ddl-auto = update
+spring.sql.init.mode = always
